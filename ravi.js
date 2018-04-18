@@ -1,6 +1,6 @@
 console.log("js is working");
 
-var quotes =["It ain't about the plane. It's about the pilot", "duck twelve", "You tryna grub?", "Ayyy", "I am having a spiritual experience"]
+var quotes =["It ain't about the plane. It's about the pilot", "duck twelve", "Hey, here's a nickel. Go buy yourself five pennies", "You tryna grub?", "Ayyy", "I am having a spiritual experience"]
 
 var github = document.getElementById("github");
 var linkedin = document.getElementById("linkedin");
