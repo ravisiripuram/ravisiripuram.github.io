@@ -1,8 +1,16 @@
 console.log("js is working");
 
+var quotes =["It ain't about the plane. It's about the pilot", "duck twelve", "You tryna grub?", "Ayyy", "I am having a spiritual experience"]
+
 var github = document.getElementById("github");
 var linkedin = document.getElementById("linkedin");
 var resume = document.getElementById("resume");
+var quoteText = document.getElementById("quoteText");
+
+window.onload = function() {
+	var chosen = Math.floor(Math.random() * quotes.length);
+	quoteText.innerHTML = quotes[chosen];
+}
 
 github.onmouseover = function() {
 	github.className = "fab fa-github fa-spin";
