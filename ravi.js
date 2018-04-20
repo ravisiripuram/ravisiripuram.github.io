@@ -14,6 +14,7 @@ window.onload = function() {
 }
 
 email.onmouseover = function() {
+	console.log("EMAIL CHANGE");
 	email.className = "fas fa-envelope fa-spin";
 }
 
