@@ -5,11 +5,20 @@ var quotes =["It ain't about the plane. It's about the pilot", "duck twelve", "H
 var github = document.getElementById("github");
 var linkedin = document.getElementById("linkedin");
 var resume = document.getElementById("resume");
+var email = document.getElementById("email");
 var quoteText = document.getElementById("quoteText");
 
 window.onload = function() {
 	var chosen = Math.floor(Math.random() * quotes.length);
 	quoteText.innerHTML = quotes[chosen];
+}
+
+email.onmouseover = function() {
+	email.className = "fas fa-envelope fa-spin";
+}
+
+email.onmouseleave = function() {
+	email.className = "fas fa-envelope";
 }
 
 github.onmouseover = function() {
